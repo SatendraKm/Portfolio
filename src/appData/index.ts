@@ -2,6 +2,7 @@
 import {
   ExpressjsIcon,
   JavaScriptIcon,
+  MongoDBIcon,
   NextjsIcon,
   NodejsIcon,
   ReactIcon,
@@ -78,7 +79,7 @@ export const skillList = [
   },
   {
     name: "MongoDB",
-    icon: NodejsIcon,
+    icon: MongoDBIcon,
   },
   {
     name: "WebSockets",
@@ -92,6 +93,31 @@ export const footerLinks = [
   {
     title: "Services",
     href: "#services",
+  },
+];
+
+export const experienceData = [
+  {
+    role: "Full-Stack Software Developer Intern",
+    company: "ABIS Foods Pvt. Ltd.",
+    period: "May 2025 - Sep 2025",
+    location: "Rajnandgaon, Chhattisgarh",
+    highlights: [
+      "Owned four CRM modules end-to-end across a shared multi-tenant codebase using React, Node.js, and MySQL.",
+      "Designed role-based access with 20+ permission levels and a lead pipeline processing roughly 9,000 leads per day.",
+      "Built an offline-first ERP module with geo-fenced check-ins, IndexedDB sync, and a real-time WebSocket dashboard.",
+      "Integrated VoIP/IVR, WhatsApp Business webhooks, and SAP ERP data feeds to improve internal support workflows.",
+    ],
+  },
+];
+
+export const educationData = [
+  {
+    institution: "OP Jindal University",
+    degree: "Bachelor of Technology in Computer Science",
+    period: "Aug 2022 - May 2026",
+    location: "Raigarh, Chhattisgarh",
+    detail: "CGPA: 8.4 / 10",
   },
 ];
 

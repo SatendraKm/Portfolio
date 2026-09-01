@@ -8,7 +8,14 @@ import Ellipse from './Ellipse'
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
   const role = useRoleSwitcher({
-    roles: ['FULL-STACK DEVELOPER', 'REACT & NEXT.JS DEVELOPER', 'BACKEND API DEVELOPER'],
+    roles: [
+      'FULL-STACK DEVELOPER',
+      'REACT & NEXT.JS DEVELOPER',
+      'BACKEND API DEVELOPER',
+      'API & DATABASE ENGINEER',
+      'REAL-TIME SYSTEMS BUILDER',
+      'PROBLEM SOLVER',
+    ],
   })
 
   return (

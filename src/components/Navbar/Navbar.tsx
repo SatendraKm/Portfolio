@@ -16,6 +16,14 @@ const navItems = [
     href: '/#projects',
   },
   {
+    label: '_experience',
+    href: '/#experience',
+  },
+  {
+    label: '_education',
+    href: '/#education',
+  },
+  {
     label: '_services',
     href: '/#services',
   },
