@@ -1,9 +1,11 @@
 {
   "priority": 1,
-  "title": "Color Contrast Collection",
-  "shortDescription": "Curated Background with Text colors contrast, help you to pick best contrast for your websites",
+  "title": "Technorollix",
+  "shortDescription": "Multi-tenant event management SaaS for university tech-fests. Built the data model, REST API, and admin UI, with role-based access control, server-side pagination, and streaming Excel exports for 42+ events.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
-  "livePreview": "https://example.com/alpha",
-  "type": "Client Work 🙍‍♂️",
-  "siteAge": "1 month old"
+  "visitors": "42+ Events",
+  "type": "SaaS Platform",
+  "siteAge": "Mar 2025",
+  "livePreview": "https://example.com/epsilon",
+  "githubLink": "https://github.com/example/ReactJS-Coding-Challenges"
 }

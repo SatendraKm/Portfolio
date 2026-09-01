@@ -9,19 +9,14 @@ const Footer = () => {
         <div>
           <h5 className="mb-8 flex items-center gap-2">
             <Logo width={30} height={24} />
-            <span className="text-neutral text-lg font-medium">Logoipsum</span>
+            <span className="text-neutral text-lg font-medium">
+              Satendra Kumar
+            </span>
           </h5>
           <p className="text-tertiary-content">
-            The first free end-to-end analytics service for the site, designed
-            to work with enterprises of various levels and business segments.
+            Full-stack software developer focused on building reliable web
+            systems from idea to deployment.
           </p>
-          <a
-            href="#"
-            className="text-neutral mt-4 inline-flex items-center gap-2 text-xs hover:underline"
-          >
-            More about us{" "}
-            <span className="bg-neutral inline-block size-[10px] rounded-full" />
-          </a>
         </div>
 
         <div className="flex flex-wrap gap-8">
@@ -52,8 +47,8 @@ const Footer = () => {
             ))}
           </ul>
           <p className="text-tertiary-content flex flex-col self-end text-right text-xs md:text-center">
-            <span>© 2025 — Copyright</span>
-            <span>All Rights reserved</span>
+            <span>© 2026 Satendra Kumar</span>
+            <span>All rights reserved</span>
           </p>
         </div>
 
@@ -64,16 +59,16 @@ const Footer = () => {
                 Contact Us
               </h5>
               <a
-                href="mailto:johndoe@gmail.com"
+                href="mailto:satendrakm27@gmail.com"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300"
               >
-                johndoe@gmail.com
+                satendrakm27@gmail.com
               </a>
               <a
-                href="tel:+92 3123456789"
+                href="tel:+919301196473"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300"
               >
-                +92 3123456789
+                +91 9301196473
               </a>
             </div>
             <div>
@@ -82,8 +77,8 @@ const Footer = () => {
                   Location
                 </h5>
                 <address className="text-tertiary-content flex flex-col text-sm font-light">
-                  <span>123456, Pakistan</span>
-                  <span>Karachi 22/5/8, Office 4</span>
+                  <span>Raipur, Chhattisgarh</span>
+                  <span>India 492001</span>
                 </address>
               </div>
             </div>

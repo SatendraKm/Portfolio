@@ -1,9 +1,12 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
-  "shortDescription": "A programming related article site to share my learnings",
+  "title": "Network-Next",
+  "shortDescription": "Alumni networking and mentorship platform built during Smart India Hackathon. Delivered real-time chat, video calling, mentor matching, Razorpay payments, and a preference-based matching system.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned"
+  "type": "Hackathon Project",
+  "siteAge": "Dec 2024",
+  "visitors": "Thousands of MAUs",
+  "earned": "₹2+ Lakh Donations",
+  "livePreview": "https://example.com/epsilon",
+  "githubLink": "https://github.com/example/ReactJS-Coding-Challenges"
 }

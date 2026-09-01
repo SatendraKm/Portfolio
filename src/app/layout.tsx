@@ -1,24 +1,27 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
 
-import Footer from '@/components/Footer/Footer'
-import Navbar from '@/components/Navbar/Navbar'
-import ThemeMenu from '@/components/Theme/ThemeMenu'
-import { Fira_Code } from 'next/font/google'
+import Footer from "@/components/Footer/Footer";
+import Navbar from "@/components/Navbar/Navbar";
+import ThemeMenu from "@/components/Theme/ThemeMenu";
+import { Fira_Code } from "next/font/google";
 
-const firaCode = Fira_Code({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'] })
+const firaCode = Fira_Code({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
 
-const title = 'John Doe | Full-Stack Web Developer in Chicago'
+const title = "Satendra Kumar | Full-Stack Software Developer";
 
 const description =
-  "Skilled full-stack web developer in Chicago. I build responsive, user-friendly websites with React, NextJS, and NodeJS. Let's bring your vision to life. Hire me today!"
+  "Full-stack software developer based in Raipur, India. I build reliable web systems with React, Next.js, Node.js, and SQL.";
 
-const url = process.env.NEXT_PUBLIC_SITE_URL
+const url = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
   title,
   description,
-  category: 'technology',
+  category: "technology",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
   alternates: {
     canonical: url,
@@ -27,21 +30,21 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: 'John Doe Portfolio',
-    type: 'website',
+    siteName: "Satendra Kumar Portfolio",
+    type: "website",
   },
   twitter: {
     title,
     description,
-    card: 'summary_large_image',
-    creator: '@Basit_Miyanji',
+    card: "summary_large_image",
+    creator: "@satendrakm27",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" data-theme="dark">
@@ -54,5 +57,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }
