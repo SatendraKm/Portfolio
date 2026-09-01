@@ -7,44 +7,51 @@ import {
   NodejsIcon,
   ReactIcon,
   SocketIcon,
-  TailwindCSS,
   TypescriptIcon,
 } from "../utils/icons";
+import {
+  BackendIcon,
+  DatabaseIcon,
+  FrontendIcon,
+  FullStackIcon,
+  RealtimeIcon,
+  ToolingIcon,
+} from "../components/Services/expertise-icons";
 
 // Service Data
 export const serviceData = [
   {
-    icon: JavaScriptIcon,
+    icon: FullStackIcon,
     title: "Full-Stack Web Development",
     shortDescription:
       "Building production-ready web applications from data model and API design through responsive user interfaces.",
   },
   {
-    icon: ReactIcon,
+    icon: FrontendIcon,
     title: "React & Next.js Development",
     shortDescription:
       "Creating fast, accessible interfaces and server-rendered applications with React, Next.js, and TypeScript.",
   },
   {
-    icon: NodejsIcon,
+    icon: BackendIcon,
     title: "Backend & REST APIs",
     shortDescription:
       "Designing maintainable Node.js and Express APIs, authentication, data models, and reusable middleware.",
   },
   {
-    icon: NextjsIcon,
+    icon: RealtimeIcon,
     title: "Real-Time Applications",
     shortDescription:
       "Integrating WebSockets, webhooks, and offline-first data flows for responsive, connected experiences.",
   },
   {
-    icon: TypescriptIcon,
+    icon: DatabaseIcon,
     title: "Database Design",
     shortDescription:
       "Working with MySQL, MongoDB, Sequelize, and IndexedDB to build dependable data layers.",
   },
   {
-    icon: TailwindCSS,
+    icon: ToolingIcon,
     title: "Cloud & Developer Tools",
     shortDescription:
       "Shipping with Git, Docker, AWS EC2, Postman, Jest, and Linux-based development workflows.",
