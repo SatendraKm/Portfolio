@@ -1,127 +1,114 @@
-# Flexy Dev - Next.js Portfolio Template
+# Satendra Kumar | Full-Stack Software Developer
 
-![](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+A portfolio website showcasing my work as a full-stack developer focused on building reliable web products, scalable APIs, and user-friendly interfaces.
 
-![](https://img.shields.io/badge/license-MIT-blue.svg)
+## About Me
 
-[![Premium Version](https://img.shields.io/badge/PREMIUM_%20VERSION-AVAILABLE-%2300C7B7?style=for-the-badge&logo=stellar&logoColor=white)](https://basit313.gumroad.com/l/nextjs-developer-portfolio-template)
+I am a Computer Science graduate based in Raipur, Chhattisgarh, India, building end-to-end digital solutions with React, Next.js, Node.js, Express.js, and SQL/NoSQL databases. I enjoy turning product ideas into robust, production-ready systems with strong architecture, clean interfaces, and useful user experiences.
 
-✨ **Professional Portfolio Template** built with Next.js 15 • 🚀 Tailwind V4 • 📱 Fully Responsive • 🎨 Modern Design • 🔍 SEO Friendly
+## What I Build
 
-![Next.js Portfolio Template Hero Section](https://ik.imagekit.io/cpnw7c0xpe/Tailwind%20Components/Templates/Flexy%20Dev%20Cover%20New.png?updatedAt=1741812978958)
+- Full-stack web applications and internal tools
+- React and Next.js frontends
+- REST APIs and backend services
+- Real-time systems and dashboard workflows
+- Data-driven platforms with permission models and analytics
 
-## 🚀 How to Run the Project
+## Tech Stack
 
-Follow these steps to set up and run the project locally:
+- JavaScript / TypeScript
+- React.js / Next.js
+- Node.js / Express.js
+- MongoDB / MySQL
+- WebSockets / real-time communication
+- Git / Postman / Docker / Linux workflows
+- AWS EC2 and deployment tooling
 
-### 1️⃣ Install Dependencies
+## Featured Projects
 
-After downloading/cloning the project, navigate to the project directory and run:
+### Technorollix
+
+A multi-tenant event management SaaS for university tech-fests. I built the data model, REST API, admin dashboard, role-based access flow, server-side pagination, and Excel export workflows for 42+ events.
+
+### Network-Next
+
+An alumni networking and mentorship platform built for a hackathon. The project included real-time chat, video calling, mentor matching, Razorpay integration, and a preference-based matching system.
+
+## Experience
+
+### Full-Stack Software Developer Intern
+
+ABIS Foods Pvt. Ltd. | May 2025 - Sep 2025
+
+- Built and owned CRM modules across a shared multi-tenant codebase using React, Node.js, and MySQL.
+- Designed role-based access systems with 20+ permission levels and lead pipeline automation.
+- Implemented an offline-first ERP module with geo-fenced check-ins, IndexedDB sync, and a real-time dashboard.
+- Integrated VoIP, WhatsApp webhooks, and SAP ERP data feeds to improve support operations.
+
+## Education
+
+Bachelor of Technology in Computer Science
+OP Jindal University | Aug 2022 - May 2026
+CGPA: 8.4 / 10
+
+## Achievements
+
+- Bronze Medal, East Regional Skill India Competition 2026 (Web Technologies)
+- Event Management Lead, Hacksprint 2025
+
+## Local Development
+
+### 1) Install dependencies
 
 ```bash
 npm install
-# or
-yarn install
 ```
 
-This will install all required dependencies.
+### 2) Set up environment variables
 
-### 2️⃣ Start the Development Server
-
-Once the installation is complete, start the server with:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Your portfolio will now be running at `http://localhost:3000`.
-
-### ⚠️ Important: Set Up Environment Variables
-
-Before running the project, make sure to create a `.env.local` file in the root directory and add the following:
+Create a `.env.local` file in the project root and add:
 
 ```env
 SITE_URL=http://localhost:3000
 ```
 
-This ensures proper configuration of environment variables.
+### 3) Start the development server
 
-## Folder Structure Overview
+```bash
+npm run dev
+```
 
-![Next.js portfolio template folder structure overview](https://ik.imagekit.io/cpnw7c0xpe/Tailwind%20Components/Templates/Folder%20Structure%20Overview.png?updatedAt=1741684501824)
+Then open http://localhost:3000 in your browser.
 
-- **content:** Contains data for projects. Add any additional section data here.
-- **Components:** All the UI components of app e.g. navbar, hero, projects, footer etc
-- **src/services:** Retrieves project data using the fs module. Update this file if you change or modify the data source.
-- **src/assets:** Stores all assets, including images and icons, additionally you can add audio, video, and local fonts here.
-- **src/hooks:** Holds custom hooks.
-- **src/lib/types.d.ts:** Contains TypeScript types.
-- **util/icons:** Centralizes icons and images for easy updates.
-- **appData:** Includes app data, such as services and skills (including icons).
-- **app/page.tsx:** Root file of the app.
-- **app/layout.tsx:** Manages global and SEO configurations (e.g., fonts, head tags, analytics).
+## Project Structure
 
-## Customizing the Template
+```text
+Portfolio/
+├── content/
+│   └── projects/
+├── public/
+├── src/
+│   ├── app/
+│   ├── appData/
+│   ├── components/
+│   ├── hooks/
+│   ├── services/
+│   └── utils/
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+├── README.md
+└── .env.local
+```
 
-1. Navbar
-   - File: navbar.tsx
-     - Update the navbar name from john_doe to your name.
-2. Hero Section
-   - File: hero.tsx
-     - Edit the title, description, and optionally, replace the SVG with your image.
-3. Projects Section
-   - File: content/projects
-     - Replace the dummy projects with your own.
-     - If you are modifying the properties or going to add new ones, then update types in types.d.ts.
-4. Services Section
-   - File: appData
-     - Add your services with relevant icons. If icons are missing, contact me on LinkedIn or via email.
-5. Skills Section
-   - File: appData
-     - Add your skills with relevant icons. Contact if you can’t find specific icons online.
-6. Footer
-   - Location: Visit [Flexy UI](http://flexyui.com/)
-     - You can replace the default footer or choose from additional variants [from Flexy UI](http://flexyui.com/) (simple or column footer).
+## Contact
 
-![Project section](https://ik.imagekit.io/cpnw7c0xpe/Tailwind%20Components/Templates/flexy-dev-portfolio-portfolio.png?updatedAt=1739182152345)
+- Email: satendrakm27@gmail.com
+- LinkedIn: https://www.linkedin.com/in/satendrakm
+- GitHub: https://github.com/SatendraKm
+- LeetCode: https://leetcode.com/SatendraKm27/
+- X: https://x.com/satendrakm27
 
-## Configuring Online Images
+## Notes
 
-To display online images (e.g., from a CDN) in your deployed project, configure allowed image hostnames in next.config.js.
-
-For demo purposes, we’re using Unsplash images. You can use any image host, but be sure to add the hostname in your configuration.
-
-Replace 'unsplash' with your own image `hostnames` if using a different service or add a new object.
-
-## Theming and Styling
-
-We use Tailwind CSS for styling. In `global.css`, you can customize theme variables for all 3 themes.
-
-## SEO & Branding
-
-1. Favicon: Replace the default favicon with your own.
-2. Metadata: Update meta title and description in layout.tsx.
-3. SEO Files: robots.ts and sitemap.ts are included for search engines.
-4. Open Graph Images:
-   - Replace `opengraph-image.png` and `twitter-image.png `with custom images.
-   - Alternatively, edit `opengraph-image.tsx` to generate images dynamically.
-
-### If you find this template helpful, don't forget to ⭐️ the repo!
-
-## Analytics
-
-You can integrate analytics easily:
-
-1. Simple Analytics or Vercel Analytics: Quick and easy to set up.
-2. Google Analytics 4: Also straightforward.
-
-## Deployment Notes
-
-Before deploying, add environment variables from .env.local wherever you are deploying:
-
-1. SITE_URL: Set to your actual site URL (e.g., https://johndoe.com).
-1. For local development, use the localhost URL.
-
-For any query or suggestion, I am available on [LinkedIn](https://www.linkedin.com/in/abdulbasitprofile/) or email me at basit@codevertiser.com
+This portfolio is built with Next.js and Tailwind CSS, and is designed to present my work, skills, experience, and projects in a clean and professional way.
