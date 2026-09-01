@@ -16,6 +16,7 @@ export default async function Home() {
         <ProjectSection projects={projects} />
         <ExperienceSection />
         <EducationSection />
+        <AchievementsSection />
         <ServiceSection />
       </div>
     </main>
@@ -23,3 +24,4 @@ export default async function Home() {
 }
 import EducationSection from '@/components/Education/EducationSection'
 import ExperienceSection from '@/components/Experience/ExperienceSection'
+import AchievementsSection from '@/components/Achievements/AchievementsSection'

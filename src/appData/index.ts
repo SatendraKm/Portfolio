@@ -128,6 +128,19 @@ export const educationData = [
   },
 ];
 
+export const achievementData = [
+  {
+    title: "Bronze Medal - East Regional Skill India Competition 2026",
+    description:
+      "Awarded in the Web Technologies track after competing in a government-organized assessment with participants from more than six states.",
+  },
+  {
+    title: "Event Management Lead - Hacksprint 2025",
+    description:
+      "Organized a 30-hour hackathon for 120+ participants, leading logistics and judge coordination for OP Jindal University's annual fest.",
+  },
+];
+
 export const themes = [
   {
     name: "Light",

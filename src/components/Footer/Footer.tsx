@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="relative z-20 grid grid-cols-1 items-start gap-20 md:grid-cols-2 md:gap-12">
         <div>
           <h5 className="mb-8 flex items-center gap-2">
-            <Logo width={30} height={24} />
+            <Logo width={30} height={30} />
             <span className="text-neutral text-lg font-medium">
               Satendra Kumar
             </span>

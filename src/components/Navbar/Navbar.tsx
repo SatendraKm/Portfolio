@@ -24,6 +24,10 @@ const navItems = [
     href: '/#education',
   },
   {
+    label: '_achievements',
+    href: '/#achievements',
+  },
+  {
     label: '_services',
     href: '/#services',
   },

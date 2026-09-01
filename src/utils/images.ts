@@ -1,3 +1,3 @@
-import HeroImage from '../assets/images/hero-placeholder.png'
+const HeroImage = '/favicon/favicon.svg'
 
 export { HeroImage }

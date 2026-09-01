@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 import Footer from "@/components/Footer/Footer";
@@ -16,13 +16,31 @@ const title = "Satendra Kumar | Full-Stack Software Developer";
 const description =
   "Full-stack software developer based in Raipur, India. I build reliable web systems with React, Next.js, Node.js, and SQL.";
 
-const url = process.env.NEXT_PUBLIC_SITE_URL;
+const url = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+export const viewport: Viewport = {
+  themeColor: "#0d1a3b",
+};
 
 export const metadata: Metadata = {
   title,
   description,
   category: "technology",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
+  metadataBase: new URL(url),
+  applicationName: "Satendra Kumar Portfolio",
+  authors: [{ name: "Satendra Kumar", url }],
+  creator: "Satendra Kumar",
+  publisher: "Satendra Kumar",
+  keywords: [
+    "Satendra Kumar",
+    "full-stack software developer",
+    "React developer",
+    "Next.js developer",
+    "Node.js developer",
+    "TypeScript developer",
+    "web developer in Raipur",
+    "software developer in India",
+  ],
   alternates: {
     canonical: url,
   },
@@ -38,6 +56,32 @@ export const metadata: Metadata = {
     description,
     card: "summary_large_image",
     creator: "@satendrakm27",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico" },
+      { url: "/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: [
+      {
+        url: "/favicon/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+  },
+  manifest: "/favicon/site.webmanifest",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 };
 
