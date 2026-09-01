@@ -16,7 +16,7 @@ const title = "Satendra Kumar | Full-Stack Software Developer";
 const description =
   "Full-stack software developer based in Raipur, India. I build reliable web systems with React, Next.js, Node.js, and SQL.";
 
-const url = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const url = process.env.SITE_URL ?? "http://localhost:3000";
 
 export const viewport: Viewport = {
   themeColor: "#0d1a3b",
