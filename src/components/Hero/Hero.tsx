@@ -53,6 +53,15 @@ const Hero = () => {
             >
               LinkedIn Profile
             </a>
+            <a
+              href="/Satendra_Kumar_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Preview Satendra Kumar resume in a new tab"
+              className="text-neutral bg-secondary cursor-pointer rounded-lg px-[14px] py-[10px] text-sm"
+            >
+              Download CV
+            </a>
           </div>
         </div>
 
